@@ -8,6 +8,5 @@
 #!/usr/bin/env bash
 
 python -m pip install -r requirements.txt
-python -m pip install gunicorn
 python manage.py collectstatic --noinput
 python manage.py migrate
